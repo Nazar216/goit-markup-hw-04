@@ -178,6 +178,8 @@ img {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .section-exception {
@@ -304,6 +306,14 @@ img {
     
 }
 
+.social-links{
+    display: flex;
+    margin-top: 28px;
+    margin-bottom: 42px;
+    justify-content: space-evenly;
+}
+
+
 /* Колір головного заголовку(Ефективні...)*/
 
 .hero-title {
@@ -325,7 +335,6 @@ img {
 
 /* Колір заголовків посад команди */
 .subtitle-specialty{
-    margin-bottom: 30px;
 
     font-size: 16px;
     line-height: 1.19;
@@ -433,9 +442,14 @@ img {
     background-color: #2F303A;
 }
 
-.footer{
+.container-footer{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 60px;
     padding-bottom: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .logo-studio-white{
@@ -461,6 +475,7 @@ img {
     color: #FFFFFF;
 }
 
+
 .address-block .link{
     display: block;
     margin-bottom: 9px;
@@ -471,13 +486,27 @@ img {
     text-decoration: none;
 
     color: rgba(255, 255, 255, 0.6);
-    
 }
 
 .address-block a:hover,
 .address-block a:focus {
     color: var(--link-text-color);
 }
+
+.container-join{
+    display: flex;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+        
+}
+
+.social-links-join{
+    display: flex;
+}
+
 
 /* Портфоліо */
 
