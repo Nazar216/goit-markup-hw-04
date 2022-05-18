@@ -239,6 +239,20 @@ img {
     max-width: 270px;
 }
 
+.box-icon .icon{
+    margin-top: 25px;
+    margin-left: 100px;
+}
+
+
+.item .box-icon{
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
 /* .icon-antenna::before{
     background-image: url(../image/antenna\ 1.svg);
 } */
@@ -344,6 +358,60 @@ img {
     color: var(--link-text-color); 
    
 }
+
+
+/* Нова секція */
+
+.svg-list{
+    display: flex;
+}
+
+.svg-list .section-icon{
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.svg-list .item + .item{
+    margin-left: 30px;
+}
+
+.section-icon .link{
+    display: block;
+    width: 170px;
+    height: 92px;
+}
+
+
+
+
+
+.link .icon-group-1 {
+    margin-top: 23px;
+    margin-left: 64px;
+}
+.link .icon-group-2 {
+    margin-top: 19px;
+    margin-left: 65px;
+}
+.link .icon-group-3 {
+    margin-top: 25px;
+    margin-left: 62px;
+}
+.link .icon-group-4 {
+    margin-top: 25px;
+    margin-left: 43px;
+}
+.link .icon-group-5 {
+    margin-top: 23px;
+    margin-left: 54px;
+}
+.link .icon-group-6 {
+    margin-top: 23px;
+    margin-left: 38px;
+}
+
 
 /* Футер */
 
