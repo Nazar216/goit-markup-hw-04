@@ -76,13 +76,6 @@ img {
 }
 
 
-.section-exception{
-    width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 94px;
-    /* outline: 2px solid tomato; */
-}
 
 
 /* Колір логотипу */
@@ -187,6 +180,13 @@ img {
     background-position: center;
 }
 
+.section-exception {
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 94px;
+    /* outline: 2px solid tomato; */
+}
 
 .section-title{
     margin-bottom: 50px;
@@ -239,18 +239,19 @@ img {
     max-width: 270px;
 }
 
-.box-icon .icon{
-    margin-top: 25px;
-    margin-left: 100px;
-}
-
-
 .item .box-icon{
     width: 270px;
     height: 120px;
     background-color: #F5F4FA;
     border-radius: 4px;
     margin-bottom: 30px;
+}
+
+
+.box-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* .icon-antenna::before{
@@ -366,6 +367,7 @@ img {
     display: flex;
 }
 
+
 .svg-list .section-icon{
     width: 170px;
     height: 92px;
@@ -383,34 +385,42 @@ img {
     height: 92px;
 }
 
+.section-icon .link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-
-
-
-.link .icon-group-1 {
+/* .link .icon-group-1 {
     margin-top: 23px;
     margin-left: 64px;
+    fill: #AFB1B8;
 }
 .link .icon-group-2 {
     margin-top: 19px;
     margin-left: 65px;
+    fill: #AFB1B8;
 }
 .link .icon-group-3 {
     margin-top: 25px;
     margin-left: 62px;
+    fill: #AFB1B8;
 }
 .link .icon-group-4 {
     margin-top: 25px;
     margin-left: 43px;
+    fill: #AFB1B8;
 }
 .link .icon-group-5 {
     margin-top: 23px;
     margin-left: 54px;
+    fill: #AFB1B8;
 }
 .link .icon-group-6 {
     margin-top: 23px;
     margin-left: 38px;
-}
+    fill: #AFB1B8;
+} */
 
 
 /* Футер */
