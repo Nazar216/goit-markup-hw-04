@@ -328,6 +328,16 @@ img {
     fill: #AFB1B8;
 }
 
+.social-links .link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
 .social-links .link:hover{
     display: flex;
     justify-content: center;
@@ -337,6 +347,12 @@ img {
     height: 44px;
     border-radius: 50%;
 }
+
+.social-links .icon:hover {
+    fill: var(--primary-text-color);
+    
+}
+
 
 
 /* Колір головного заголовку(Ефективні...)*/
