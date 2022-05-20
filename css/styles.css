@@ -131,7 +131,8 @@ img {
 }
 
 .header-nav a:hover, 
-.header-nav a:focus {
+.header-nav a:focus{
+    fill: #2196F3;
     color: var(--link-text-color);
 }
 
@@ -150,7 +151,10 @@ img {
     color: var(--link-text-color);
 }
 
+
 .header-nav-tel{
+    display: flex;
+    align-items: center;
     text-decoration: none;
     font-weight: 500;
     letter-spacing: 0.02em;
@@ -169,6 +173,19 @@ img {
     align-items: center;
     margin-right: 10px;
 }
+
+.icon-header:hover{
+    fill: var(--link-text-color);
+}
+
+.header-nav-mail:hover .icon-header{
+    fill: var(--link-text-color);
+}
+
+.header-nav-tel:hover .icon-header {
+    fill: var(--link-text-color);
+}
+
 
 
 
@@ -318,14 +335,19 @@ img {
 
 .social-links{
     display: flex;
-    margin-top: 28px;
-    margin-bottom: 42px;
+    margin-top: 16px;
+    margin-bottom: 30px;
     justify-content: space-evenly;
 }
 
 
 .social-links .icon{
     fill: #AFB1B8;
+}
+
+.link .icon:hover {
+    fill: var(--primary-text-color);
+    
 }
 
 .social-links .link{
@@ -339,19 +361,13 @@ img {
 }
 
 .social-links .link:hover{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #2196F3;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
 }
 
-.social-links .icon:hover {
+.link:hover .icon{
     fill: var(--primary-text-color);
-    
 }
+
 
 
 
@@ -442,47 +458,17 @@ img {
 }
 
 
-.icon-group-1,
-.icon-group-2,
-.icon-group-3,
-.icon-group-4,
-.icon-group-5,
-.icon-group-6{
+.icon-group{
     fill: #AFB1B8;
 }
 
+.link:hover .icon-group {
+    fill: #2196F3;
+}
 
-
-/* .link .icon-group-1 {
-    margin-top: 23px;
-    margin-left: 64px;
-    fill: #AFB1B8;
+.section-icon:hover {
+    border: 1px solid var(--link-text-color);
 }
-.link .icon-group-2 {
-    margin-top: 19px;
-    margin-left: 65px;
-    fill: #AFB1B8;
-}
-.link .icon-group-3 {
-    margin-top: 25px;
-    margin-left: 62px;
-    fill: #AFB1B8;
-}
-.link .icon-group-4 {
-    margin-top: 25px;
-    margin-left: 43px;
-    fill: #AFB1B8;
-}
-.link .icon-group-5 {
-    margin-top: 23px;
-    margin-left: 54px;
-    fill: #AFB1B8;
-}
-.link .icon-group-6 {
-    margin-top: 23px;
-    margin-left: 38px;
-    fill: #AFB1B8;
-} */
 
 
 /* Футер */
@@ -551,6 +537,11 @@ img {
     justify-content: center;
     align-items: center;
 }
+
+.link-join:hover{
+    background: var(--link-text-color);
+}
+
 
 .social-links-join .item + .item{
     margin-left: 10px;
